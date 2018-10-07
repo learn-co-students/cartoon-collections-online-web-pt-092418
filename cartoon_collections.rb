@@ -8,11 +8,11 @@ def roll_call_dwarves (dwarves)# code an argument here
 end
 
 def summon_captain_planet (elements)# code an argument here
-  elements.map! {|element| element.capitalize!}
+  elements.map! {|element| element.capitalize}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls (calls)# code an argument here
+  calls.any?{|i| i.count <4}
 end
 
 def find_the_cheese# code an argument here
